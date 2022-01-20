@@ -40,9 +40,6 @@ workspace:
     vaults:
         - fsPath: vault
           sync: sync
-          remote:
-              type: git
-              url: 'git@github.com:aleksey-rowan/workspace-sync-test.git'
           name: vault
         - fsPath: remote-vault
           sync: sync
